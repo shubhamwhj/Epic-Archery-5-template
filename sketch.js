@@ -59,7 +59,12 @@ function setup() {
 }
 
 function draw() {
-  background(backgroundImg);
+  background(189);
+
+  //Uncomment correct line of code to display the background image
+  //background(backgroundImg);
+  //image(backgroundImg);
+  //backgroundImage(backgroundImg);
 
   Engine.update(engine);
 
